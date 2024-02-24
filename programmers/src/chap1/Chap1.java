@@ -1,4 +1,4 @@
-package programmers_coding_test.chap1;
+package chap1;
 
 import java.util.*;
 

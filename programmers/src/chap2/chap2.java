@@ -1,4 +1,4 @@
-package programmers_coding_test.chap2;
+package chap2;
 
 public class chap2 {
     public static void main(String[] args) {
