@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b289c90a-ef7a-4529-9f92-ec0302336f28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap3/chap3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap3/chap3_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +30,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.chap3_1.executor": "Run",
-    "Application.chap3_2.executor": "Run",
-    "Application.chap3_3.executor": "Run",
-    "Application.chap3_4.executor": "Run",
-    "Application.chap3_5.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/hyunseok/IdeaProjects/coding_test/doit/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.chap3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chap3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chap3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chap3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chap3_5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/hyunseok/IdeaProjects/coding_test/doit/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.chap3_5">
     <configuration name="chap3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap3.chap3_1" />
