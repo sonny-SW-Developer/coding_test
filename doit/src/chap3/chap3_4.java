@@ -2,7 +2,7 @@ package chap3;
 import java.util.*;
 import java.io.*;
 
-// 구간 합 구하기 2 - 백준(11660)
+// 구간 합 구하기 2 - 백준 11660(S1)
 public class chap3_4 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b289c90a-ef7a-4529-9f92-ec0302336f28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap3/chap3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap3/chap3_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     "Application.chap3_2.executor": "Run",
     "Application.chap3_3.executor": "Run",
     "Application.chap3_4.executor": "Run",
+    "Application.chap3_5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -43,7 +45,7 @@
     "onboarding.tips.debug.path": "/Users/hyunseok/IdeaProjects/coding_test/doit/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.chap3_4">
+  <component name="RunManager" selected="Application.chap3_5">
     <configuration name="chap3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap3.chap3_1" />
       <module name="doit" />
@@ -96,8 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chap3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap3.chap3_5" />
+      <module name="doit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chap3_5" />
         <item itemvalue="Application.chap3_4" />
         <item itemvalue="Application.chap3_3" />
         <item itemvalue="Application.chap3_2" />
