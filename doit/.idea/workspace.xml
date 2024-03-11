@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b289c90a-ef7a-4529-9f92-ec0302336f28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programmers/programmers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,7 @@
     "Application.Main.executor": "Run",
     "Application.chap3_1.executor": "Run",
     "Application.chap3_10.executor": "Run",
+    "Application.chap3_13.executor": "Run",
     "Application.chap3_2.executor": "Run",
     "Application.chap3_3.executor": "Run",
     "Application.chap3_4.executor": "Run",
@@ -42,6 +45,7 @@
     "Application.chap3_9.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/hyunseok/IdeaProjects/coding_test/doit/src/Main.java",
@@ -50,7 +54,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.chap3_10">
+  <component name="RunManager" selected="Application.chap3_13">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="doit" />
@@ -71,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.chap3_4" />
+    <configuration name="chap3_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap3.chap3_13" />
       <module name="doit" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chap3_13" />
         <item itemvalue="Application.chap3_10" />
         <item itemvalue="Application.chap3_9" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.chap3_5" />
-        <item itemvalue="Application.chap3_4" />
       </list>
     </recent_temporary>
   </component>
