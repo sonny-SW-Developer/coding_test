@@ -4,6 +4,25 @@ import java.util.*;
 
 // 교점에 점 만들기
 public class chap3_1 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("2차원 배열의 행 수를 입력하세요 : ");
+        int line = sc.nextInt();
+        int[][] arr = new int[line][3];
+        System.out.println("배열을 입력해주세요");
+        for (int i = 0; i < line; i++) {
+            System.out.print( i + "번째 행 입력 : ");
+            for (int j = 0; j < 3; j++) {
+                arr[i][j] = Integer.parseInt(sc.next());
+            }
+        }
+
+        chap3_1 c3_1 = new chap3_1();
+
+        System.out.println(Arrays.toString(c3_1.solution(arr)));
+    }
+
     // 좌표 클래스
     private static class Point {
         public final long x,y;
@@ -52,11 +71,11 @@ public class chap3_1 {
 
     public String[] solution(int[][] line) {
         List<Point> points = new ArrayList<>();
-        for (int i=0; i< line.length; i++) {
-            for (int j=i+1; j<line.length; j++) {
+        for (int i = 0; i < line.length; i++) {
+            for (int j = i + 1; j < line.length; j++) {
                 Point interSection = intersection(line[i][0], line[i][1], line[i][2],
                         line[j][0], line[j][1], line[j][2]);
-                if(interSection != null) {
+                if (interSection != null) {
                     points.add(interSection);
                 }
             }
@@ -80,29 +99,9 @@ public class chap3_1 {
         }
 
         String[] result = new String[arr.length];
-        for (int i=0; i< result.length; i++) {
+        for (int i = 0; i < result.length; i++) {
             result[i] = new String(arr[i]);
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        System.out.print("2차원 배열의 행 수를 입력하세요 : ");
-        int line = sc.nextInt();
-        int[][] arr = new int[line][3];
-        System.out.println("배열을 입력해주세요");
-        for (int i = 0; i < line; i++) {
-            System.out.print( i + "번째 행 입력 : ");
-            for (int j = 0; j < 3; j++) {
-                arr[i][j] = Integer.parseInt(sc.next());
-            }
-        }
-
-        chap3_1 c3_1 = new chap3_1();
-
-        System.out.println(Arrays.toString(c3_1.solution(arr)));
-
     }
 }
