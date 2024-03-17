@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 
 // 수 정렬하기(버블 정렬) - 백준 2750(B1)
-public class chap4_1 {
+public class chap4_15 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
