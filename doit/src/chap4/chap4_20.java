@@ -20,6 +20,7 @@ public class chap4_20 {
             A[i] = Integer.parseInt(br.readLine());
         }
 
+        merge_sort(1,n);
         for(int i=1; i<=n; i++) {
             bw.write(A[i] + "\n");
         }

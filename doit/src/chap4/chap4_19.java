@@ -15,7 +15,8 @@ public class chap4_19 {
         for(int i=0; i<n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
-
+        quickSort(arr,0,n-1,k-1);
+        System.out.println(arr[k-1]);
 
     }
 
