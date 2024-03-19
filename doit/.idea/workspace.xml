@@ -52,6 +52,8 @@
     "Application.chap5_25.executor": "Run",
     "Application.chap5_26.executor": "Run",
     "Application.chap5_29.executor": "Run",
+    "Application.chap6_32.executor": "Run",
+    "Application.chap6_34.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,33 +65,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.chap5_29">
-    <configuration name="chap4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap4.chap4_19" />
-      <module name="doit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chap5_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.chap5_24" />
-      <module name="doit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.chap6_34">
     <configuration name="chap5_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap5.chap5_25" />
       <module name="doit" />
@@ -129,13 +105,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chap6_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap6.chap6_32" />
+      <module name="doit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap6_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap6.chap6_34" />
+      <module name="doit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chap6_34" />
+        <item itemvalue="Application.chap6_32" />
         <item itemvalue="Application.chap5_29" />
         <item itemvalue="Application.chap5_26" />
         <item itemvalue="Application.chap5_25" />
-        <item itemvalue="Application.chap4_19" />
-        <item itemvalue="Application.chap5_24" />
       </list>
     </recent_temporary>
   </component>
