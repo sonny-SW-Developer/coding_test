@@ -54,6 +54,7 @@
     "Application.chap5_29.executor": "Run",
     "Application.chap6_32.executor": "Run",
     "Application.chap6_34.executor": "Run",
+    "Application.chap6_36.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,20 +66,12 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.chap6_34">
-    <configuration name="chap5_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.chap5_25" />
-      <module name="doit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="sasered'" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.chap6_36">
     <configuration name="chap5_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap5.chap5_26" />
       <module name="doit" />
@@ -131,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chap6_36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap6.chap6_36" />
+      <module name="doit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chap6_36" />
         <item itemvalue="Application.chap6_34" />
         <item itemvalue="Application.chap6_32" />
         <item itemvalue="Application.chap5_29" />
         <item itemvalue="Application.chap5_26" />
-        <item itemvalue="Application.chap5_25" />
       </list>
     </recent_temporary>
   </component>
