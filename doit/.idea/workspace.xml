@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b289c90a-ef7a-4529-9f92-ec0302336f28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,15 @@
     "Application.chap6_32.executor": "Run",
     "Application.chap6_34.executor": "Run",
     "Application.chap6_36.executor": "Run",
+    "Application.chap7_37.executor": "Run",
+    "Application.chap7_38.executor": "Run",
+    "Application.chap7_42.executor": "Run",
+    "Application.chap7_43.executor": "Run",
+    "Application.chap7_44.executor": "Run",
+    "Application.chap7_45.executor": "Run",
+    "Application.chap8_48.executor": "Run",
+    "Application.chap8_49.executor": "Run",
+    "Application.chap8_51.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -62,7 +72,7 @@
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/hyunseok/IdeaProjects/coding_test/doit/src/Main.java",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
@@ -71,13 +81,20 @@
       <command value="sasered'" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.chap6_36">
-    <configuration name="chap5_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.chap5_26" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="doit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap7_45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap7.chap7_45" />
       <module name="doit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap5.*" />
+          <option name="PATTERN" value="chap7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap5_29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.chap5_29" />
+    <configuration name="chap8_48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap8.chap8_48" />
       <module name="doit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap5.*" />
+          <option name="PATTERN" value="chap8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap6_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap6.chap6_32" />
+    <configuration name="chap8_49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap8.chap8_49" />
       <module name="doit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap6.*" />
+          <option name="PATTERN" value="chap8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap6_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap6.chap6_34" />
+    <configuration name="chap8_51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap8.chap8_51" />
       <module name="doit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chap6_36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap6.chap6_36" />
-      <module name="doit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap6.*" />
+          <option name="PATTERN" value="chap8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.chap6_36" />
-        <item itemvalue="Application.chap6_34" />
-        <item itemvalue="Application.chap6_32" />
-        <item itemvalue="Application.chap5_29" />
-        <item itemvalue="Application.chap5_26" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.chap8_51" />
+        <item itemvalue="Application.chap8_49" />
+        <item itemvalue="Application.chap8_48" />
+        <item itemvalue="Application.chap7_45" />
       </list>
     </recent_temporary>
   </component>
