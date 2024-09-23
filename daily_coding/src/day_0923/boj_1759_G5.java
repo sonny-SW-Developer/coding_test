@@ -1,7 +1,13 @@
-import java.util.*;
-import java.io.*;
+package day_0923;
 
-public class Main {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class boj_1759_G5 {
     static int l, c;
     static char[] arr;
     static ArrayList<String> list;
