@@ -4,6 +4,9 @@ import java.io.*;
 public class study {
     static int[] parent;
     public static void main(String[] args) {
+        // 삼성 코테 input.txt 파일 테스트 시
+//        System.setIn(new FileInputStream("C:\\Users\\fairy\\Desktop\\input.txt"));
+
         // 2차원 배열 정렬
         int[][] A = new int[5][2];
         Arrays.sort(A, new Comparator<int[]>() {
