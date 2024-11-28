@@ -1,7 +1,10 @@
+package day_1126;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class boj_11657_G4 {
+    // 타임머신(G4) - 벨만포드 알고리즘 사용
+    // https://www.acmicpc.net/problem/11657
     static ArrayList<Node>[] A;
     static int n,m;
     static long[] dist;

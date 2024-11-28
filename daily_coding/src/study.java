@@ -33,8 +33,8 @@ public class study {
         }
 
         // 최대공약수, 최소공배수
-        int a = 5;
-        int b = 7;
+        int a = 7;
+        int b = 5;
         System.out.println("최대공약수: " + gcd(a,b));
         System.out.println("최소공배수: " + (a * b / gcd(a,b)));
 

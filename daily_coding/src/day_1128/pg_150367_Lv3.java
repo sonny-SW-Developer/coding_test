@@ -1,23 +1,21 @@
+package day_1128;
 import java.util.*;
-
-class Solution {
+public class pg_150367_Lv3 {
+    // 2023 카카오 기출문제 : 표현 가능한 이진트리
+    // https://school.programmers.co.kr/learn/courses/30/lessons/150367
     public int[] solution(long[] numbers) {
         int[] result = new int[numbers.length];
 
         for (int i = 0; i < numbers.length; i++) {
             // 숫자를 이진수로 변환
             String binary = Long.toBinaryString(numbers[i]);
-            // 포화 이진트리 크기 계산
-            int treeSize = getFullBinaryTreeSize(binary.length());
-            // 이진수를 포화 이진트리 길이로 패딩
-            String paddedBinary = padBinary(binary, treeSize);
+            int treeSize = getFullBinaryTreeSize(binary.length()); // 포화 이진트리 크기 계산
+            String paddedBinary = padBinary(binary, treeSize); // 이진수를 포화 이진트리 길이로 패딩
 
             if (isValidTree(paddedBinary)) {
-                // 유효한 이진트리로 표현 가능
-                result[i] = 1;
+                result[i] = 1; // 유효한 이진트리로 표현 가능
             } else {
-                // 표현 불가능
-                result[i] = 0;
+                result[i] = 0; // 표현 불가능
             }
         }
 
@@ -34,7 +32,7 @@ class Solution {
         return size;
     }
 
-    // 이진수를 포화 이진트리 크기로 설정
+    // 이진수를 포화 이진트리 크기로 패딩
     private String padBinary(String binary, int size) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < size - binary.length(); i++) {
@@ -49,7 +47,7 @@ class Solution {
         return checkTree(binary, 0, binary.length() - 1);
     }
 
-    // 트리 유효성 검사
+    // 트리의 유효성을 재귀적으로 검사
     private boolean checkTree(String binary, int start, int end) {
         if (start > end) return true; // 리프 노드까지 확인 완료
 
